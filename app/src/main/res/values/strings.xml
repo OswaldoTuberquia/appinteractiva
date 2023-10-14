@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">appinteractiva</string>
+    <string name="txtWelcome">Bienvenidos al App interactivo para Android</string>
+    <string name="txtPrograma">Programa de Ingenieria de Software UMB</string>
+    <string name="txtAsignatura">Asignatura: Programación en plataformas móviles II</string>
+    <string name="txtEstudiante">Estudiante: Oswaldo Jóse Tuberquia Florez</string>
+    <string name="txtDocente">Docente: Robert Osorio Torres</string>
+    <string name="txtSemestre">Semestre: VI - 2023</string>
+    <string name="txtLogo">Logo UMB</string>
+    <string name="txtPorcentaje">0%</string>
+    <string name="txtTituloMenu">Menu Principal</string>
+    <string name="btnRetornarMenu">Retornar a Menú</string>
+    <string name="txtBuscadorPagina">Buscador de Páginas</string>
+    <string name="txtUrl">Ingrese URL a cargar</string>
+    <string name="txtRegistro">Formulario de Registro</string>
+    <string name="txtNombres">Nombres</string>
+    <string name="txtApellidos">Apellidos</string>
+    <string name="txtEdad">Edad</string>
+    <string name="btnRegistrar">Registrar</string>
+    <string name="txtProcesados">¡La Información fue correctamente procesada!</string>
+    <string name="txtDefault">None</string>
+</resources>

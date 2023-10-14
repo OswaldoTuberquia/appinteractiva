@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SearchPageActivity">
+
+    <Button
+        android:id="@+id/btnBackMenu2"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:onClick="backMenuFromSearch"
+        android:text="@string/btnRetornarMenu"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.499" />
+
+    <TextView
+        android:id="@+id/txtTitulo4"
+        android:layout_width="416dp"
+        android:layout_height="53dp"
+        android:text="@string/txtBuscadorPagina"
+        android:textAlignment="center"
+        android:textColor="@color/design_default_color_primary"
+        android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.023"
+        tools:ignore="TextSizeCheck,VisualLintBounds" />
+
+    <EditText
+        android:id="@+id/txtUrl"
+        android:layout_width="393dp"
+        android:layout_height="52dp"
+        android:ems="10"
+        android:gravity="top"
+        android:hint="@string/txtUrl"
+        android:inputType="text"
+        android:visibility="visible"
+        app:layout_constraintBottom_toBottomOf="@id/btnCargar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.507"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.748" />
+
+    <Button
+        android:id="@+id/btnCargar"
+        android:layout_width="283dp"
+        android:layout_height="wrap_content"
+        android:onClick="opUploadUrl"
+        android:text="Cargar URL"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.411" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
